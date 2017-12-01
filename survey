@@ -1,0 +1,11 @@
+a = []
+for i in range(11):
+    row = []
+    row.append(input("What is your name? "))
+    row.append(input("What is your favourite word?: "))
+    row.append(input("I spy with my little eye something that begins with S?: "))
+    row.append(input("Do you like windows?: "))
+    a.append(row)
+
+for i in range(12):
+    print(a[i])
